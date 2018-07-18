@@ -78,7 +78,7 @@ describe('Basic Tests', function() {
             var airDrop = builder.deployed.airDrop;
 
             var user = builder.accounts[1];
-            var index = airDrop.getIndex(user.address);;
+            var index = airDrop.getIndex(user.address);
             var amount = balanceOfIndex(1);
 
             var tokenAdmin = builder.deployed.contract;
